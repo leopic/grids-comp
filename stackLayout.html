@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HNR using StackLayout</title>
+    <link rel="stylesheet" href="http://developer.yahoo.com/yui/build/reset/reset.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="http://developer.yahoo.com/yui/build/fonts/fonts.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="http://developer.yahoo.com/yui/build/base/base.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="camslice-StackLayout-f06b7a4/stacklayout.css" type="text/css" media="screen" />
+    <style>
+        html { background: url("960/templates/1000_10_12_12.png") top center no-repeat; width: 1000px; margin: 0 auto; }
+        body { margin: 0; }
+        .header { background: rgba(200,200,200,0.75); }
+        .sidebar { background: rgba(100,100,100,0.75); }
+        .main { background: rgba(150,150,150,0.75); }
+        .footer { background: rgba(0,0,0,0.75); color: #fff; }
+        .footer .grid_2 ul { margin: 0; border-right: 1px solid #fff; }
+        .footer .grid_2 ul li { list-style-type: none; margin: 0; text-transform: capitalize; }
+        .footer .grid_2 ul li:first-child { color:red; font-weight: bold; text-transform: lowercase; }
+        .stackContent {margin: 12px;}
+    </style>
+</head>
+<body>
+<div class="stack">
+    <div class="stackContent header">
+        <h1>header</h1>
+    </div>
+    <div class="content">
+    <div class="stack2of3 main">
+        <div class="stackContent">
+            <h2>main content area</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis urna nulla. Aenean feugiat gravida luctus.          Fusce convallis ornare purus, ac vehicula nibh aliquam nec. Nam at mi arcu. Nulla egestas lectus at dolor dignissim vulputate cursus ipsum mollis. Nam dolor felis, feugiat quis hendrerit sit amet, pretium ac nibh. In quam libero, hendrerit sit amet scelerisque at, fermentum a sapien. Maecenas rutrum vestibulum neque vel venenatis. Proin commodo faucibus tellus non dapibus. </p>
+        </div>
+    </div>
+
+    <div class="stack1of3 sidebar">
+        <div class="stackContent">
+            <h2>left column</h2>
+            <p>Fusce dapibus ultrices quam, ac convallis neque viverra nec. Pellentesque ut vehicula leo. Nulla leo libero, mattis elementum volutpat et, iaculis in ligula. Cras scelerisque leo et risus egestas pharetra. Suspendisse pellentesque tristique aliquam. Donec faucibus mauris vitae purus aliquam ut convallis ipsum placerat. Donec eu leo neque. </p>
+        </div>
+    </div>
+</div>
+    <div class="footer">
+        <div class="stack1of3">
+            <h1 class="stackContent">footer:</h1>
+        </div>
+        <div class="stack2of3">
+            <h2 class="stackContent">four column layout, two empty columns, faux-centering</h2>
+        </div>
+        <div class="stack1of4">
+            <ul class="stackContent">
+                <li>grid_2 prefix_1 alpha</li>
+                <li>sign in</li>
+                <li>where's my stuff</li>
+                <li>buy gift certificates</li>
+                <li>return policy</li>
+            </ul>
+        </div>
+        <div class="stack1of4">
+            <ul class="stackContent">
+                <li>grid_2</li>
+                <li>sign in</li>
+                <li>where's my stuff</li>
+                <li>buy gift certificates</li>
+                <li>return policy</li>
+            </ul>
+        </div>
+        <div class="stack1of4">
+            <ul class="stackContent">
+                <li>grid_2</li>
+                <li>sign in</li>
+                <li>where's my stuff</li>
+                <li>buy gift certificates</li>
+                <li>return policy</li>
+            </ul>
+        </div>
+        <div class="stack1of4">
+            <ul class="stackContent">
+                <li>grid_2 suffix_1 omega</li>
+                <li>sign in</li>
+                <li>where's my stuff</li>
+                <li>buy gift certificates</li>
+                <li>return policy</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
