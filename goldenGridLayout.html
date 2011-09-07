@@ -11,27 +11,28 @@
     <link rel="stylesheet" type="text/css" href="jonikorpi-Golden-Grid-System-e7c679c/GGS.css" media="screen"  />
     <script type="text/javascript" src="jonikorpi-Golden-Grid-System-e7c679c/GGS.js"></script>
     <style>
-        /*body { margin: 0; }
-        .header { background: rgba(200,200,200,0.75); }
+        .header { background: rgba(200,200,200,0.75); overflow: auto;}
         .sidebar { background: rgba(100,100,100,0.75); }
         .main { background: rgba(150,150,150,0.75); }
-        .footer { background: rgba(0,0,0,0.75); color: #fff; }
-        .footer .grid_2 ul { margin: 0; border-right: 1px solid #fff; }
-        .footer .grid_2 ul li { list-style-type: none; margin: 0; text-transform: capitalize; }
-        .footer .grid_2 ul li:first-child { color:red; font-weight: bold; text-transform: lowercase; }*/    
+        /*footer .grid_2 ul { margin: 0; border-right: 1px solid #fff; }
+        footer .grid_2 ul li { list-style-type: none; margin: 0; text-transform: capitalize; }
+        footer .grid_2 ul li:first-child { color:red; font-weight: bold; text-transform: lowercase; }*/
+        footer  { clear: both; background: rgba(0,0,0,0.75); color: #fff; margin: 0 27.7778%; overflow: auto;}
     </style>
 </head>
 <body>
     <div id="outer">
         <header>
-            <div class="wrapper">
-                <h1>1</h1>
+            <div class="wrapper header">
+                <h1>header</h1>
             </div>
         </header>
         <article>
             <div id="twoway">
-                <div class="wrapper">
+                <div class="wrapper sidebar">
                     <h1>1/2</h1>
+                    <h2>left column</h2>
+                    <p>Fusce dapibus ultrices quam, ac convallis neque viverra nec. Pellentesque ut vehicula leo. Nulla leo libero, mattis elementum volutpat et, iaculis in ligula. Cras scelerisque leo et risus egestas pharetra. Suspendisse pellentesque tristique aliquam. Donec faucibus mauris vitae purus aliquam ut convallis ipsum placerat. Donec eu leo neque. </p>
                     <div class="wrapper">
                         <h2>1/4</h2>
                         <div class="wrapper">
@@ -44,11 +45,29 @@
                             </div>
                         </div>
                     </div>
-                    <div class="wrapper"><h2>1/4</h2></div>
+                    <div class="wrapper">
+                        <h2>1/4</h2>
+                    </div>
                 </div>
-                <div class="wrapper"><h1>1/2</h1></div>
+                <div class="wrapper  main">
+                    <h1>1/2</h1>
+                    <h2>main content area</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis urna nulla. Aenean feugiat gravida luctus.          Fusce convallis ornare purus, ac vehicula nibh aliquam nec. Nam at mi arcu. Nulla egestas lectus at dolor dignissim vulputate cursus ipsum mollis. Nam dolor felis, feugiat quis hendrerit sit amet, pretium ac nibh. In quam libero, hendrerit sit amet scelerisque at, fermentum a sapien. Maecenas rutrum vestibulum neque vel venenatis. Proin commodo faucibus tellus non dapibus. </p>
+                </div>
             </div>
         </article>
+        <div style="clear: both;"></div>
+        <footer id="twoway">
+            <div class="wrapper">
+                <h1>footer</h1>
+            </div>
+            <div class="wrapper">
+                <h2>1</h2>
+            </div>
+            <!--<div class="wrapper">
+                </h2>2</h2>
+            </div>-->
+        </footer>
     </div>
 </body>
 </html>
