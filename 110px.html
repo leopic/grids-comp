@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HNR using 1140px</title>
+    <link rel="stylesheet" href="http://developer.yahoo.com/yui/build/reset/reset.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="http://developer.yahoo.com/yui/build/fonts/fonts.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="http://developer.yahoo.com/yui/build/base/base.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" media="screen" href="andytlr-cssgrid-3ddcd9f/css/1140.css" />
+    <style>
+        html {  margin: 0 auto; background: url("blueprint/bg.png") top left;}
+        .header { background: rgba(200,200,200,0.75); }
+        .sidebar { background: rgba(100,100,100,0.75); }
+        .main { background: rgba(150,150,150,0.75); }
+        .footer { background: rgba(0,0,0,0.75); color: #fff; }
+        .footer .twocol ul { margin: 0; border-right: 1px solid #fff; }
+        .footer .twocol ul li { list-style-type: none; margin: 0; text-transform: capitalize; }
+        .footer .twocol ul li:first-child { color:red; font-weight: bold; text-transform: lowercase; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="twelvecol header">
+            <h1>header</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="eightcol main">
+            <h2>main content area</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis urna nulla. Aenean feugiat gravida luctus.          Fusce convallis ornare purus, ac vehicula nibh aliquam nec. Nam at mi arcu. Nulla egestas lectus at dolor dignissim vulputate cursus ipsum mollis. Nam dolor felis, feugiat quis hendrerit sit amet, pretium ac nibh. In quam libero, hendrerit sit amet scelerisque at, fermentum a sapien. Maecenas rutrum vestibulum neque vel venenatis. Proin commodo faucibus tellus non dapibus. </p>
+        </div>
+        <div class="fourcol sidebar last">
+            <h2>left column</h2>
+            <p>Fusce dapibus ultrices quam, ac convallis neque viverra nec. Pellentesque ut vehicula leo. Nulla leo libero, mattis elementum volutpat et, iaculis in ligula. Cras scelerisque leo et risus egestas pharetra. Suspendisse pellentesque tristique aliquam. Donec faucibus mauris vitae purus aliquam ut convallis ipsum placerat. Donec eu leo neque. </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelvecol footer">
+            <div class="row">
+                <div class="fourcol">
+                    <h1>footer:</h1>
+                </div>
+                <div class="eightcol last">
+                    <h2>four column layout, two empty columns, faux-centering</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="twocol">
+                    <ul>
+                        <li>span-2 prepend-1 clear</li>
+                        <li>sign in</li>
+                        <li>where's my stuff</li>
+                        <li>buy gift certificates</li>
+                        <li>return policy</li>
+                    </ul>
+                </div>
+                <div class="twocol">
+                    <ul>
+                        <li>span-2</li>
+                        <li>sign in</li>
+                        <li>where's my stuff</li>
+                        <li>buy gift certificates</li>
+                        <li>return policy</li>
+                    </ul>
+                </div>
+                <div class="twocol">
+                    <ul>
+                        <li>span-2</li>
+                        <li>sign in</li>
+                        <li>where's my stuff</li>
+                        <li>buy gift certificates</li>
+                        <li>return policy</li>
+                    </ul>
+                </div>
+                <div class="twocol last">
+                    <ul>
+                        <li>span-2 append-1 last</li>
+                        <li>sign in</li>
+                        <li>where's my stuff</li>
+                        <li>buy gift certificates</li>
+                        <li>return policy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
