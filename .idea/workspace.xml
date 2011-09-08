@@ -23,10 +23,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="columnal.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/columnal.html">
+      <file leaf-file-name="inuitcss.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inuitcss.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="67" selection-start="787" selection-end="787" vertical-scroll-proportion="0.40677965">
+            <state line="18" column="7" selection-start="1188" selection-end="1188" vertical-scroll-proportion="-1.5762712">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csswizardry-inuit.css-a130de3/example.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="22" selection-start="441" selection-end="441" vertical-scroll-proportion="135.7931">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csswizardry-inuit.css-a130de3/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="16" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inuit.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csswizardry-inuit.css-a130de3/css/inuit.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="245" column="18" selection-start="4886" selection-end="4886" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grid.inuit.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csswizardry-inuit.css-a130de3/css/grid.inuit.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="26" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -48,10 +84,13 @@
         <option value="$PROJECT_DIR$/jonikorpi-Golden-Grid-System-e7c679c/GGS.html" />
         <option value="$PROJECT_DIR$/110px.html" />
         <option value="$PROJECT_DIR$/goldenGridLayout.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/andytlr-cssgrid-3ddcd9f/css/1140.css" />
         <option value="$PROJECT_DIR$/less.html" />
         <option value="$PROJECT_DIR$/columnal.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/csswizardry-inuit.css-a130de3/css/grid.inuit.css" />
+        <option value="$PROJECT_DIR$/inuitcss.html" />
+        <option value="$PROJECT_DIR$/csswizardry-inuit.css-a130de3/example.html" />
       </list>
     </option>
   </component>
@@ -105,7 +144,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="columnal-0.85" />
+              <option name="myItemId" value="csswizardry-inuit.css-a130de3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -119,29 +158,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="columnal-0.85" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grids" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grids-comp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="columnal-0.85" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
+              <option name="myItemId" value="csswizardry-inuit.css-a130de3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -287,46 +304,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yaml.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="7" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.6023055" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="173" selection-end="173" vertical-scroll-proportion="0.32448378">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldenGridLayout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="14" selection-start="2444" selection-end="2444" vertical-scroll-proportion="1.6603774">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/andytlr-cssgrid-3ddcd9f/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="79" selection-end="168" vertical-scroll-proportion="0.5293233">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/andytlr-cssgrid-3ddcd9f/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="228" selection-end="228" vertical-scroll-proportion="0.30508474">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/andytlr-cssgrid-3ddcd9f/css/1140.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="4" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1140px.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="12" selection-start="1136" selection-end="1136" vertical-scroll-proportion="34.896553">
@@ -351,13 +328,6 @@
     <entry file="file://$PROJECT_DIR$/jonikorpi-Less-Framework-d3d7877/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="8" selection-start="329" selection-end="329" vertical-scroll-proportion="0.44968554">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blueprint.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="2620" selection-end="2863" vertical-scroll-proportion="-12.034483">
           <folding />
         </state>
       </provider>
@@ -390,9 +360,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blueprint.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="6" selection-start="1221" selection-end="3740" vertical-scroll-proportion="-15.862069">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/columnal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="67" selection-start="787" selection-end="787" vertical-scroll-proportion="0.40677965">
+        <state line="19" column="0" selection-start="1072" selection-end="1072" vertical-scroll-proportion="-14.413794">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="1" selection-start="164" selection-end="164" vertical-scroll-proportion="0.32448378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csswizardry-inuit.css-a130de3/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csswizardry-inuit.css-a130de3/css/inuit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="245" column="18" selection-start="4886" selection-end="4886" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csswizardry-inuit.css-a130de3/example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="22" selection-start="441" selection-end="441" vertical-scroll-proportion="135.7931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csswizardry-inuit.css-a130de3/css/grid.inuit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="26" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inuitcss.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="7" selection-start="1188" selection-end="1188" vertical-scroll-proportion="-1.5762712">
           <folding />
         </state>
       </provider>
