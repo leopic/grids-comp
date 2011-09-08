@@ -1,0 +1,58 @@
+// This import applies a global reset to any page that imports this stylesheet.
+@import "blueprint/reset";
+@import "compass/utilities/general/clearfix";
+
+// To configure blueprint, edit the partials/base.sass file.
+@import "partials/base";
+
+// Import all the default blueprint modules so that we can access their mixins.
+@import "blueprint";
+
+.container {
+    @include container;
+  //@include blueprint-utilities;
+  //@include blueprint-debug;
+}
+
+.header {
+    @include column($blueprint-grid-columns);
+}
+
+.faux {
+    @include clearfix;
+    @include column(10);
+    
+    .sidebar{
+        @include column(3);
+        @include pull(7,true);
+    }
+
+    .main{
+        @include column(7, true);
+        @include push(3);
+    }
+}
+
+
+
+.footer {
+    @include prepend(1);
+    @include append(1);
+    @include column(8);
+    @include clearfix;
+
+    .clearfix{
+        @include clearfix;
+        h1 {
+            @include column(3);
+        }
+        h2 {
+            @include column(5, true);
+        }
+    }
+
+
+    ul {
+        @include column(2);
+    }
+}
