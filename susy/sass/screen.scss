@@ -1,0 +1,51 @@
+// Imports -------------------------------------------------------------------
+
+@import "compass/reset";
+@import "base";
+
+/* Layout ------------------------------------------------------------------*/
+
+.container {
+  @include container;
+  @include susy-grid-background;
+}
+
+/* Header --------------------------------------------------------------*/
+
+.header {
+    @include full;
+}
+
+.main {
+    @include columns(7);
+    @include alpha;
+}
+
+.sidebar {
+    @include columns(3);
+    @include omega;
+}
+
+.footer{
+    @include full;
+    @include pad(1,1);
+
+    h1 {
+        @include columns(2,8);
+    }
+    h2 {
+        @include columns(6,8);
+        @include omega(8);
+    }
+    ul {
+        @include columns(2,8);
+        margin-left:0;
+        &.alpha {
+            //@include alpha;
+        }
+        &.omega {
+            @include omega(8);
+            margin-left:0;
+        }
+    }
+}

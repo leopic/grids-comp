@@ -1,0 +1,14 @@
+// Imports -------------------------------------------------------------------
+
+@import "susy";
+
+// Grid ----------------------------------------------------------------------
+
+$total-cols             : 10;
+$col-width              : 76px;
+$gutter-width           : 24px;
+$side-gutter-width      : 12px;
+
+$show-grid-backgrounds  : true;
+$grid-background-column-color : #eee;
+$grid-background-gutter-color : white;
